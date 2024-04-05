@@ -19,7 +19,7 @@
 body {
     font-family: var(--poppins);
     background-color: var(--verylightgray);
-    font-size: 0.938rem;
+    font-size: 0.92rem;
     color: var(--grayishblue);
 }
 
@@ -47,8 +47,8 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 150vh;
-    max-width: 90%;
+    height: 200vh;
+    max-width: 85%;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -65,20 +65,33 @@ h3 {
 
 .box {
     position: relative;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    /* border-top: 3px solid turquoise; */
+    box-shadow: rgba(100, 100, 111, 0.2) 10px 15px 29px 0px;
     border-radius: 8px;
     padding: 25px;
-    padding-bottom: 100px;
+    padding-bottom: 130px;
     margin-bottom: 1.6rem;
 }
 
+.box.cyan {
+    border-top: 4px solid var(--cyan);
+}
+
+.box.red {
+    border-top: 4px solid var(--red);
+}
+
+.box.orange {
+    border-top: 4px solid var(--orange);
+}
+
+.box.blue {
+    border-top: 4px solid var(--blue);
+}
 
 svg {
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-bottom: 10px;
-    /* Justera detta värde efter behov för att undvika att SVG-elementet fastnar i hörnet */
-    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
 }
