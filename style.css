@@ -36,9 +36,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     color: var(--verydarkblue);
+    margin-bottom: 0.5rem;
 }
 
 .flex-container {
@@ -47,8 +48,9 @@ h3 {
     justify-content: center;
     align-items: center;
     height: 150vh;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
+    margin-top: 100px;
 }
 
 .grid-container {
@@ -68,7 +70,9 @@ h3 {
     border-radius: 8px;
     padding: 25px;
     padding-bottom: 100px;
+    margin-bottom: 1.6rem;
 }
+
 
 svg {
     position: absolute;
