@@ -100,7 +100,7 @@ svg {
     margin-right: 20px;
 }
 
-@media screen and (min-width: 1281px) {
+@media screen and (min-width: 1290px) {
     .neutral {
         max-width: 500px;
     }
