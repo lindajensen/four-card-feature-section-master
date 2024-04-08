@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](hhttps://github.com/lindajensen/four-card-feature-section-master.git)
+- Live Site URL: [Netlify](https://ruby-four-card-feature-section-master.netlify.app/)
 
 ## My process
 
